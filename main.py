@@ -6,7 +6,7 @@ from map_renderer import MapRenderer
 
 
 class DoomEngine:
-    def __init__(self, wad_path='wad/DOOM.WAD'):
+    def __init__(self, wad_path='wad/doom.wad'):
         self.wad_path = wad_path
         self.screen = pg.display.set_mode(WIN_RES)
         self.clock = pg.time.Clock()
